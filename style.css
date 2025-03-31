@@ -29,36 +29,20 @@
     font-family: poppins;
     font-size: smaller;
     font-weight: 600;
-    display: inline-flex;
+    display: flex;
+    justify-content: space-around;
   }
 
-  
-
-
-
-
-.email {
-    margin-left: 30px;
-    display: inline-block;
-  }
-  .phone {
-      margin-left: 30px;
-    display: inline-block;
-  }
-  .whatsApp {
-    margin-left: 30px;
-    display: inline-block;
-  }
-  
-  
   .languageButton {
     height: 30px;
     font-size: 90%;
-    width: 50%;
     display: inline-flex;
     justify-content: flex-end;
   }
-  
+#marginSetting {
+  margin-left: 20px;
+}
+
   #bar2 {
     background-color: #B6EF4933;
   padding: 5%;
