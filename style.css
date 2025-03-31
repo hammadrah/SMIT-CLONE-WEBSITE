@@ -5,3 +5,13 @@
     font-size: 30px;
     font-weight: 500;
   }
+
+
+  .auto-type {
+    color: rgb(65, 65, 192);
+  }
+  
+  .mb-8 p {
+    font-weight: 500;
+    color: black;
+  }
