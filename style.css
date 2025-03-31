@@ -15,3 +15,58 @@
     font-weight: 500;
     color: black;
   }
+
+  
+
+.info-top {
+    background-color: #EEEE;
+    height: auto;
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: poppins;
+    font-size: smaller;
+    font-weight: 600;
+    display: inline-flex;
+  }
+
+  
+
+
+
+
+.email {
+    margin-left: 30px;
+    display: inline-block;
+  }
+  .phone {
+      margin-left: 30px;
+    display: inline-block;
+  }
+  .whatsApp {
+    margin-left: 30px;
+    display: inline-block;
+  }
+  
+  
+  .languageButton {
+    height: 30px;
+    font-size: 90%;
+    width: 50%;
+    display: inline-flex;
+    justify-content: flex-end;
+  }
+  
+  #bar2 {
+    background-color: #B6EF4933;
+  padding: 5%;
+  }
+  
+  .placeholder {
+    border: 1px solid black;
+  }
+  
+  
+  
