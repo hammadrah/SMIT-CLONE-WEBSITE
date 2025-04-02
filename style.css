@@ -63,7 +63,7 @@
     padding-right: 10px;
     align-items: center;
   }
-  
+
   .placeholder {
     border-left: 2px solid black;
     background-color: white;
@@ -115,13 +115,177 @@ padding-right: 20px;
   width: 100%;
   height: auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   margin-top: 20px;
   margin-bottom: 20px;
   font-family: poppins;
   font-size: 20px;
-  background-color: green;
+}
+
+.Card1{
+  background-color: rgba(182,239,73,.2);
+  margin: 10px 10px 10px 10px;
+  height: fit-content;
+  width: 16.7%;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 50px 0px 50px;
+}
+.Card1:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s; /* Animation */
+}
+.Nametag1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+.image1 {
+  display: flex;
+justify-content: center;
+align-items: center;
 }
   
+.Card2{
+  background-color: rgba(182,239,73,.2);
+  margin: 10px 10px 10px 10px;
+  height: fit-content;
+  width: 16.7%;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 50px 0px 50px;
+}
+.Card2:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s; /* Animation */
+}
+.Nametag2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+.image2 {
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+.Card3{
+  background-color: rgba(182,239,73,.2);
+  margin: 10px 10px 10px 10px;
+  height: fit-content;
+  width: 16.7%;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px 0px 0px;
+}
+.Card3:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s; /* Animation */
+}
+.Nametag3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+.image3 {
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+.Card4{
+  background-color: rgba(182,239,73,.2);
+  margin: 10px 10px 10px 10px;
+  height: fit-content;
+  width: 16.6%;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px 0px 0px;
+}
+.Card4:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s; /* Animation */
+}
+.Nametag4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+.image4 {
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.Card5{
+  background-color: rgba(182,239,73,.2);
+  margin: 10px 10px 10px 10px;
+  height: fit-content;
+  width: 16.7%;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px 0px 0px;
+}
+.Card5:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s; /* Animation */
+}
+.Nametag5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+.image5 {
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.Card6{
+  background-color: rgba(182,239,73,.2);
+  margin: 10px 10px 10px 10px;
+  height: fit-content;
+  width: 16.7%;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px 0px 0px;
+}
+.Card6:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s; /* Animation */
+}
+.Nametag6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+.image6 {
+  display: flex;
+justify-content: center;
+align-items: center;
+}
