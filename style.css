@@ -241,7 +241,7 @@ align-items: center;
   width: 16.7%;
   display: flex;
   flex-direction: column;
-  padding: 50px 0px 0px 0px;
+  padding: 60px 0px 0px 0px;
 }
 .Card5:hover {
   transform: scale(1.1);
@@ -269,7 +269,7 @@ align-items: center;
   width: 16.7%;
   display: flex;
   flex-direction: column;
-  padding: 50px 0px 0px 0px;
+  padding: 60px 0px 0px 0px;
 }
 .Card6:hover {
   transform: scale(1.1);
@@ -288,4 +288,35 @@ align-items: center;
   display: flex;
 justify-content: center;
 align-items: center;
+}
+
+.adv_flash_cards {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.cardstag1 {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)),
+                    url(support\ gaza.jpeg) no-repeat center center/cover;
+  
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  font-size: xx-large;
+  color: whitesmoke;
+  font-family: poppins;
+  place-items: center;
+  place-content: center;
+  padding-left: 40px;
+}
+
+:root {
+  --primary-color: #000000; /* Green */
+  --secondary-color: #06f4612c; /* Green */
+}
+
+:hover.cardstag1 {
+  transform: scale(1.1);
+  transition: transform 0.5s; /* Animation */
 }
